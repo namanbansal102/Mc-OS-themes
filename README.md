@@ -1,78 +1,70 @@
-# Mc-OS-themes
-(Formerly known as Gnome-OSC-themes) 
+# Getting Started with Create React App
 
-This is a repository that contains Mac OS-themes for the Linux-Gnome desktop made by PaulXFCE (myself)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-These are high end and thorougly developed GTK-themes for the gnome desktop (3.20+ through 3.28) that interpretes the Mac Os themes to the gnome-environment. 
+## Available Scripts
 
-In the latest version (McOS-MJV)  I've modernized it in every little detail. There is nothing (not a single item) that is not new. Resulting in a completely rewritten GTK.CSS-file.  it also contains the dark-mode (for applications that use it)
+In the project directory, you can run:
 
-The dark-mode is also available as a seperate theme (McOS-MJV-Dark-Mode), which has the benifit of having GTK2-applications enjoy the same dark mode. 
- 
-## McOS-MJV
+### `npm start`
 
-This is a gnome-interpretation of the Mac OS Mojave (TM) desktop, with the benifit of the dark mode 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-![s](https://cn.pling.com/img/2/b/6/5/43d9a69282e978e27e9a6bd7c178c0e4debd.jpg)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## McOS-MJV-Dark_Mode
+### `npm test`
 
-MC-OS-MJV-Dark-Mode :this is the gnome-interpreation of the Mac OS Mojave-dark-theme (TM)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-![s](https://cn.pling.com/img/4/8/5/6/573788fee69c4b0bb0e698141900f232a6a1.jpg)
+### `npm run build`
 
-## McOS-HS
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-This one contains the Mac OS High Sierra (TM) interpretation ( McOS-HS)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![s](https://cn.pling.com/img/9/0/f/9/9cbbb4b03c5fc47510e717c3661cc81949ba.jpg)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## McOS-YS
+### `npm run eject`
 
-This older theme is the gnome-adaptation of the OSX-Yosemite (TM) 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-![s](https://cn.pling.com/img/8/5/0/b/73c79b20d0ed5c4b18b278eac1273e2df0bf.jpg)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## McOS-SPG
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-And finally a gnome-theme based on the looks of Logic Pro (TM) and Garageband (TM) called: McOS-SPG
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-![s](https://cn.pling.com/img/3/0/0/e/85b9c2c5ea25a5d7632f2ca79015a7f6ee84.jpg)
+## Learn More
 
-## How to install:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-First: Download the file; extract it; and somethimes you will find two themes. a version with transparency, another with (not-transparent); copy both files to a '.themes'-folder you make in your home directory. Or to your USR/SHARE/THEMES-folder for system-wide use (certainly for theming of SNAP-packages)
-Then use Tweak-tool to select the GTK and shell theme.
-LOG OUT AND BACK IN for changes to take effect !
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Second: McOS uses titlebuttons on the left-side:
-To put the buttons to the left open a terminal:
+### Code Splitting
 
-gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:"
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-To put the buttons back to the right in case you want to revert:
+### Analyzing the Bundle Size
 
-gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-In Gnome 3.26+ gnome-tweak has a option to change the position of the titlebuttons, so the above steps are not necessary. 
+### Making a Progressive Web App
 
-## Troubleshouting
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-When, as such, theming does not look the way it should be: make sure you have installed the necessary theme-"engines":
+### Advanced Configuration
 
-- The gnome-themes-standard package,
-- The murrine engine. This has different names depending on your distro.
-gtk-engine-murrine (Arch Linux)
-gtk2-engines-murrine (Debian, Ubuntu, elementary OS)
-gtk-murrine-engine (Fedora)
-gtk2-engine-murrine (openSUSE)
-gtk-engines-murrine (Gentoo)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-sudo apt-get install gtk2-engines-pixbuf is the terminal command, usually solves the issues with GTK2.
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
---------------------------------------------------------------------------------------------------------
-Trademarks:
-Apple, Mac OS High Sierra, Mac OS Mojave, OS X Yosemite, Garageband and Logic PRO 
-are are registered trademarks of Apple Inc, registered in the U.S. and other countries.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
